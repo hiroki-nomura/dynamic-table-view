@@ -1,0 +1,68 @@
+/* 既存のスタイルに加えて以下を追加 */
+
+.header-cell {
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.context-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #ccc;
+  z-index: 100;
+}
+
+.context-menu button {
+  display: block;
+  padding: 8px 12px;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: left;
+  cursor: pointer;
+}
+
+.context-menu button:hover {
+  background-color: #f0f0f0;
+}
+
+.cell-display {
+  padding: 4px;
+}
+
+.cell-display:hover {
+  cursor: text;
+  background-color: #f0f0f0;
+}
+
+input {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  background-color: #e6f7ff;
+}
+
+/* 新たな変化点の入力フィールドのスタイル */
+.new-change-point {
+  margin-bottom: 20px;
+}
+
+.new-change-point input {
+  padding: 8px;
+  width: 200px;
+  font-size: 14px;
+}
+
+.new-change-point button {
+  padding: 8px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* ハイライトされた行のスタイル */
+.highlighted {
+  background-color: yellow;
+}
